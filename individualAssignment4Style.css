@@ -1,0 +1,29 @@
+.navbarLink{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    /*padding-top: 10px;
+    padding-bottom: 10px;*/ /*fix padding*/
+
+    /*display: inline;*/
+    display:block;
+    float:left;
+    color: white;
+    text-decoration: none;
+    position: sticky;
+}
+.navbarLink a:hover{
+    background-color:darkslategray;
+}
+.navbarBackground {
+    background-color: black;
+}
+h1 {
+    text-align: center;
+}
+a:link, a:visited,  a:hover, a:active
+{
+    color: white;
+    text-decoration: none;
+}
